@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Idade</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h1>Vereficador de idade</h1>
+
+    </header>
+    <!--Body-->
+    <section>
+        <div>
+                <p>Ano de nascimento: 
+                    <input type="number" name="anoNsc" id="anoNsc">
+                </p>
+            <p>Você é:
+                <input type="radio" name="radSex" id="male" checked>
+                <label for="male">Homem</label>
+                <input type="radio" name="radSex" id="fame">
+                <label for="fame">Mulher</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+
+            </div> 
+        <div id="res">
+            Preencha os dados para verificação!
+            
+        </div>
+
+    </section>
+    <!--Footer-->
+    <footer>
+        <p>&copy;Octopus</p>
+
+    </footer>
+    <script src="../JS/script.js"></script>
+
+</body>
+</html>
